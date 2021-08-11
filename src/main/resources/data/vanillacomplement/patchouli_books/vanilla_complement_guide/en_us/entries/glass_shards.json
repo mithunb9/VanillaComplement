@@ -1,0 +1,56 @@
+{
+  "name": "Glass Shards",
+  "icon": "vanillacomplement:blue_glass_shard",
+  "category": "vanillacomplement:items",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Glass shards drop from all of the vanilla glass variants including but not limited to panes, stained and tinted glass."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "vanillacomplement:glass",
+      "recipe2": "vanillacomplement:tinted_glass"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "vanillacomplement:blue_stained_glass",
+      "recipe2": "vanillacomplement:black_stained_glass"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "vanillacomplement:brown_stained_glass",
+      "recipe2": "vanillacomplement:cyan_stained_glass"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "vanillacomplement:gray_stained_glass",
+      "recipe2": "vanillacomplement:green_stained_glass"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "vanillacomplement:light_blue_stained_glass",
+      "recipe2": "vanillacomplement:light_gray_stained_glass"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "vanillacomplement:lime_stained_glass",
+      "recipe2": "vanillacomplement:magenta_stained_glass"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "vanillacomplement:orange_stained_glass",
+      "recipe2": "vanillacomplement:pink_stained_glass"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "vanillacomplement:purple_stained_glass",
+      "recipe2": "vanillacomplement:red_stained_glass"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "vanillacomplement:white_stained_glass",
+      "recipe2": "vanillacomplement:yellow_stained_glass"
+    }
+  ]
+}

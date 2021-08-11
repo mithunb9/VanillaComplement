@@ -1,0 +1,15 @@
+{
+  "name": "Weapon Enchants",
+  "icon": "minecraft:diamond_sword",
+  "category": "vanillacomplement:enchantments",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "The weapon enchantment levitate adds levitation to the target."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "The weapon enchantment venomous poisons the target."
+    }
+  ]
+}

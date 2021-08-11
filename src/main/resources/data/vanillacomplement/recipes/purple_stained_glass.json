@@ -1,0 +1,36 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "vanillacomplement:purple_glass_shard"
+        },
+        {
+            "item": "vanillacomplement:purple_glass_shard"
+        },
+        {
+            "item": "vanillacomplement:purple_glass_shard"
+        },
+        {
+            "item": "vanillacomplement:purple_glass_shard"
+        },
+        {
+            "item": "vanillacomplement:purple_glass_shard"
+        },
+        {
+            "item": "vanillacomplement:purple_glass_shard"
+        },
+        {
+            "item": "vanillacomplement:purple_glass_shard"
+        },
+        {
+            "item": "vanillacomplement:purple_glass_shard"
+        },
+        {
+            "item": "vanillacomplement:purple_glass_shard"
+        }
+    ],
+    "result": {
+        "item": "minecraft:purple_stained_glass",
+        "count": 1
+    }
+}

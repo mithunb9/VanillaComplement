@@ -1,0 +1,16 @@
+{
+  "name": "Fuel Blocks",
+  "icon": "vanillacomplement:blaze_block",
+  "category": "vanillacomplement:blocks",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Vanilla Complement adds blocks of charcoal and blaze blocks in order to allow for more bulk smelting possibilities."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "vanillacomplement:charcoal_block",
+      "recipe2": "vanillacomplement:blaze_block"
+    }
+  ]
+}

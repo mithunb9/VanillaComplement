@@ -1,0 +1,36 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "vanillacomplement:pink_glass_shard"
+        },
+        {
+            "item": "vanillacomplement:pink_glass_shard"
+        },
+        {
+            "item": "vanillacomplement:pink_glass_shard"
+        },
+        {
+            "item": "vanillacomplement:pink_glass_shard"
+        },
+        {
+            "item": "vanillacomplement:pink_glass_shard"
+        },
+        {
+            "item": "vanillacomplement:pink_glass_shard"
+        },
+        {
+            "item": "vanillacomplement:pink_glass_shard"
+        },
+        {
+            "item": "vanillacomplement:pink_glass_shard"
+        },
+        {
+            "item": "vanillacomplement:pink_glass_shard"
+        }
+    ],
+    "result": {
+        "item": "minecraft:pink_stained_glass",
+        "count": 1
+    }
+}

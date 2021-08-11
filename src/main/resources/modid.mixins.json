@@ -4,9 +4,10 @@
   "package": "avi.mods.vanillacomplement.mixin",
   "compatibilityLevel": "JAVA_16",
   "mixins": [
+    "AxeItemMixin",
+    "AxeItemAccessor"
   ],
   "client": [
-    "ExampleMixin"
   ],
   "injectors": {
     "defaultRequire": 1

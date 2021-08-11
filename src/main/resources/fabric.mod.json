@@ -3,14 +3,14 @@
   "id": "vanillacomplement",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "VanillaComplement",
+  "description": "VanillaComplement adds a collection of features that are meant to add more features to Vanilla Minecraft. Inspired by mods such as Quark on Fabric.",
   "authors": [
-    "Me!"
+    "iiAviator9"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://github.com/mithunb9/VanillaComplementMod",
+    "sources": "https://github.com/mithunb9/VanillaComplementMod"
   },
 
   "license": "CC0-1.0",

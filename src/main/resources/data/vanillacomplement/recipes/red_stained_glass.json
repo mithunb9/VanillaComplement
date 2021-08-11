@@ -1,0 +1,36 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "vanillacomplement:red_glass_shard"
+        },
+        {
+            "item": "vanillacomplement:red_glass_shard"
+        },
+        {
+            "item": "vanillacomplement:red_glass_shard"
+        },
+        {
+            "item": "vanillacomplement:red_glass_shard"
+        },
+        {
+            "item": "vanillacomplement:red_glass_shard"
+        },
+        {
+            "item": "vanillacomplement:red_glass_shard"
+        },
+        {
+            "item": "vanillacomplement:red_glass_shard"
+        },
+        {
+            "item": "vanillacomplement:red_glass_shard"
+        },
+        {
+            "item": "vanillacomplement:red_glass_shard"
+        }
+    ],
+    "result": {
+        "item": "minecraft:red_stained_glass",
+        "count": 1
+    }
+}

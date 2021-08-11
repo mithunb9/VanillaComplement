@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "vanillacomplement:tinted_glass_shard"
+    },
+    {
+      "item": "vanillacomplement:tinted_glass_shard"
+    },
+    {
+      "item": "vanillacomplement:tinted_glass_shard"
+    },
+    {
+      "item": "vanillacomplement:tinted_glass_shard"
+    },
+    {
+      "item": "vanillacomplement:tinted_glass_shard"
+    },
+    {
+      "item": "vanillacomplement:tinted_glass_shard"
+    },
+    {
+      "item": "vanillacomplement:tinted_glass_shard"
+    },
+    {
+      "item": "vanillacomplement:tinted_glass_shard"
+    },
+    {
+      "item": "vanillacomplement:tinted_glass_shard"
+    }
+  ],
+  "result": {
+    "item": "minecraft:tinted_glass",
+    "count": 1
+  }
+}

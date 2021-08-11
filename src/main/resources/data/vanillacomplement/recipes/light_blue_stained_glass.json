@@ -1,0 +1,36 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "vanillacomplement:light_blue_glass_shard"
+        },
+        {
+            "item": "vanillacomplement:light_blue_glass_shard"
+        },
+        {
+            "item": "vanillacomplement:light_blue_glass_shard"
+        },
+        {
+            "item": "vanillacomplement:light_blue_glass_shard"
+        },
+        {
+            "item": "vanillacomplement:light_blue_glass_shard"
+        },
+        {
+            "item": "vanillacomplement:light_blue_glass_shard"
+        },
+        {
+            "item": "vanillacomplement:light_blue_glass_shard"
+        },
+        {
+            "item": "vanillacomplement:light_blue_glass_shard"
+        },
+        {
+            "item": "vanillacomplement:light_blue_glass_shard"
+        }
+    ],
+    "result": {
+        "item": "minecraft:light_blue_stained_glass",
+        "count": 1
+    }
+}

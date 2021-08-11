@@ -1,0 +1,36 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "vanillacomplement:orange_glass_shard"
+        },
+        {
+            "item": "vanillacomplement:orange_glass_shard"
+        },
+        {
+            "item": "vanillacomplement:orange_glass_shard"
+        },
+        {
+            "item": "vanillacomplement:orange_glass_shard"
+        },
+        {
+            "item": "vanillacomplement:orange_glass_shard"
+        },
+        {
+            "item": "vanillacomplement:orange_glass_shard"
+        },
+        {
+            "item": "vanillacomplement:orange_glass_shard"
+        },
+        {
+            "item": "vanillacomplement:orange_glass_shard"
+        },
+        {
+            "item": "vanillacomplement:orange_glass_shard"
+        }
+    ],
+    "result": {
+        "item": "minecraft:orange_stained_glass",
+        "count": 1
+    }
+}

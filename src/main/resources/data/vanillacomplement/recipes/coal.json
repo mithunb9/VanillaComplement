@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["###", "# #", "###"],
+  "key": {
+    "#": {
+      "item": "vanillacomplement:coal_nugget"
+    }
+  },
+  "result": {
+    "item": "minecraft:coal",
+    "count": 1
+  }
+}

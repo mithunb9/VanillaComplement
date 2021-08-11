@@ -1,0 +1,36 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "vanillacomplement:lime_glass_shard"
+        },
+        {
+            "item": "vanillacomplement:lime_glass_shard"
+        },
+        {
+            "item": "vanillacomplement:lime_glass_shard"
+        },
+        {
+            "item": "vanillacomplement:lime_glass_shard"
+        },
+        {
+            "item": "vanillacomplement:lime_glass_shard"
+        },
+        {
+            "item": "vanillacomplement:lime_glass_shard"
+        },
+        {
+            "item": "vanillacomplement:lime_glass_shard"
+        },
+        {
+            "item": "vanillacomplement:lime_glass_shard"
+        },
+        {
+            "item": "vanillacomplement:lime_glass_shard"
+        }
+    ],
+    "result": {
+        "item": "minecraft:lime_stained_glass",
+        "count": 1
+    }
+}

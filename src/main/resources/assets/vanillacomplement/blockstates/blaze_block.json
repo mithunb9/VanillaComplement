@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "vanillacomplement:block/blaze_block" }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Coal and Charcoal Nuggets",
+  "icon": "vanillacomplement:coal_nugget",
+  "category": "vanillacomplement:items",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Vanilla Complement adds coal and charcoal nuggets that smelt one item each and are more efficient than using normal coal."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "vanillacomplement:coal_nugget",
+      "recipe2": "vanillacomplement:charcoal_nugget"
+    }
+  ]
+}

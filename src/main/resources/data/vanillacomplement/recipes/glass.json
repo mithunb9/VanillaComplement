@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "vanillacomplement:glass_shard"
+    },
+    {
+      "item": "vanillacomplement:glass_shard"
+    },
+    {
+      "item": "vanillacomplement:glass_shard"
+    },
+    {
+      "item": "vanillacomplement:glass_shard"
+    },
+    {
+      "item": "vanillacomplement:glass_shard"
+    },
+    {
+      "item": "vanillacomplement:glass_shard"
+    },
+    {
+      "item": "vanillacomplement:glass_shard"
+    },
+    {
+      "item": "vanillacomplement:glass_shard"
+    },
+    {
+      "item": "vanillacomplement:glass_shard"
+    }
+  ],
+  "result": {
+    "item": "minecraft:glass",
+    "count": 1
+  }
+}

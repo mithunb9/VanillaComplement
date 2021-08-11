@@ -1,0 +1,36 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "vanillacomplement:brown_glass_shard"
+        },
+        {
+            "item": "vanillacomplement:brown_glass_shard"
+        },
+        {
+            "item": "vanillacomplement:brown_glass_shard"
+        },
+        {
+            "item": "vanillacomplement:brown_glass_shard"
+        },
+        {
+            "item": "vanillacomplement:brown_glass_shard"
+        },
+        {
+            "item": "vanillacomplement:brown_glass_shard"
+        },
+        {
+            "item": "vanillacomplement:brown_glass_shard"
+        },
+        {
+            "item": "vanillacomplement:brown_glass_shard"
+        },
+        {
+            "item": "vanillacomplement:brown_glass_shard"
+        }
+    ],
+    "result": {
+        "item": "minecraft:brown_stained_glass",
+        "count": 1
+    }
+}

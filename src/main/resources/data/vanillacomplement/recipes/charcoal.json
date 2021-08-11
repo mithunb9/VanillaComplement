@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["###", "# #", "###"],
+  "key": {
+    "#": {
+      "item": "vanillacomplement:charcoal_nugget"
+    }
+  },
+  "result": {
+    "item": "minecraft:charcoal",
+    "count": 1
+  }
+}

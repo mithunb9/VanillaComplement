@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "vanillacomplement:block/monster_box_block"
+  }
+}
