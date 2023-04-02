@@ -27,9 +27,6 @@ dependencies {
 	// PATCHOULI
 	modImplementation "vazkii.patchouli:Patchouli:1.17.1-55-FABRIC-SNAPSHOT"
 
-	// ARRP
-	modImplementation("net.devtech:arrp:0.4.4")
-
 	// PSA: Some older mods, compiled on Loom 0.2.1, might have outdated Maven POMs.
 	// You may need to force-disable transitiveness on them.
 }
