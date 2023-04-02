@@ -21,21 +21,6 @@ public class Util {
         return (int) ((Math.random() * (max - min)) + min);
     }
 
-    // Spawn Mob
-    public static void spawnMob(World world, EntityType entityType, PlayerEntity player, BlockPos pos) {
-        if (world instanceof ServerWorld) {
-            world.spawnEntity(entityType.create((ServerWorld) world, null, null, player, pos, SpawnReason.MOB_SUMMONED, true, false));
-        } else {
-            world.spawnEntity(entityType.create(world));
-        }
-    }
-
-    public static void spawnMobSwarm(World world, PlayerEntity player, BlockPos pos, int difficultyId) {
-        for (int i = 0; i < randomInRange(2,3) * difficultyId; i++) {
-            spawnMob(world, MOB_LIST[randomInRange(0,MOB_LIST.length)], player, pos);
-        }
-    }
-
     // Reverse Map into Hash Map
     public static <A, B> Map<B, A> invertMap(Map<A, B> map) {
         HashMap<B, A> reverseMap = new HashMap<>();
