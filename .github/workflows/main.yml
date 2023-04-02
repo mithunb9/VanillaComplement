@@ -1,0 +1,53 @@
+name: Publish on Modrinth & Github   #The name of your Github Action on Github.com
+ 
+on: [ pull_request, workflow_dispatch ]           #When your Github Action will be executed ('pull_request' -> on every Merge(/Pull) Request; 'workflow_dispatch' -> allows manual execution through Github.com
+
+env:                                              #Environment variables that can later be referenced using ${{ env.MINECRAFT_VERSION }}. These are useful for repeating information and allow for quick changes for new mod updates
+  MINECRAFT_VERSION: 1.19.4                       
+  JAVA_VERSION: 17                   
+
+permissions:
+  contents: write
+  
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check Environment Variables
+        run: env
+
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+        with:
+          submodules: true
+
+      - name: Setup Java
+        uses: actions/setup-java@v2
+        with:
+          distribution: "temurin"
+          java-version: 17
+
+      - name: Make Gradle Wrapper Executable
+        if: ${{ runner.os != 'Windows' }}
+        run: chmod +x ./gradlew
+
+      - name: Build
+        run: ./gradlew clean build
+        
+      - name: Publish (CurseForge/Modrinth/Github)
+        uses: Kir-Antipov/mc-publish@v3.2                                   #The specified MC-Publish Github Action in the version 3.2
+        with:
+          modrinth-id: MFuHjZ3t                                             #The id of your modrinth project
+          modrinth-token: "${{secrets.MODRINTH_TOKEN}}"
+          
+          github-tag: "v${{env.VERSION}}"
+          github-token: "${{secrets.PUBLISH_MODRINTH_TOKEN}}"
+
+          name: "${{env.RELEASE_NAME}}"                             
+          version: "${{env.VERSION}}"
+          version-type: release
+          changelog-file: CHANGELOG.md                                      #The file in which the changes of your new update are specified (the path starts at your project root)
+
+          loaders: fabric
+          game-versions: "${{env.MINECRAFT_VERSION}}"
+          java: "${{env.JAVA_VERSION}}"
