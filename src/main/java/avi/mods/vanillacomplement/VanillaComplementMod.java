@@ -28,13 +28,6 @@ public class VanillaComplementMod implements ModInitializer {
 	public static final Enchantment LEVITATE = Registry.register(Registries.ENCHANTMENT, new Identifier(MODID, "levitate"), new LevitateEnchantment());
 	public static final Enchantment VENOMOUS = Registry.register(Registries.ENCHANTMENT, new Identifier(MODID, "venomous"), new VenomousEnchantment());
 
-	public static ArrayList<BlockState> canBePlacedOn = new ArrayList<BlockState>();
-
-	public static void main(String[] args) {
-		canBePlacedOn.add(Blocks.STONE.getDefaultState());
-		canBePlacedOn.add(Blocks.DEEPSLATE.getDefaultState());
-	}
-
 	public static final ItemGroup VC_GROUP = FabricItemGroup.builder(new Identifier(MODID, "main"))
 			.icon(() -> new ItemStack(ItemRegistry.BARK_ITEM))
 			.build();
